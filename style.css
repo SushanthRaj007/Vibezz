@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+    background-color: rgb(206, 200, 22);
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+*{
+    margin: 0 ;
+    padding: 0;
+}
+nav{
+    font-family: 'ubuntu', sans-serif;
+}
+nav ul{
+    display: flex ;
+    align-items: center;
+    list-style-type: none;
+    height: 90px ;
+    background-color: rgb(6, 6, 6) ;
+    color: antiquewhite;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{
+    width: 160px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 5 rem;
+
+}
+.container{
+    min-height: 70vh;
+    background-color: rgb(73, 49, 20);
+    color: rgb(142, 205, 26);
+    font-family: 'Varela Round', sans-serif; 
+    display: flex;
+    width: 70vw;
+    margin: 23px auto;
+    border-radius: 10px;
+    padding:20px  ;
+    background-image: url('BG.jpeg') ;
+    background-size: cover;
+
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(220, 203, 150);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px 0;
+}
+.icons{
+    margin-top:15px ;
+    color: black;
+    cursor: pointer;
+
+}
+
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 40px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(64, 64, 60);
+    width: 100%;
+    color: beige;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+    padding-right: 20px;
+}
+.songitem img{
+    width: 50px;
+    padding: 25px;
+    border-radius: 100px;
+
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+
+}
+.songinfo{
+    position: absolute;
+    left: 12vw;
+    color: black;
+    
+}
+.songitemplay{
+    cursor: pointer;
+}
